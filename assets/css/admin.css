@@ -1,0 +1,81 @@
+/* admin main dashboard page */
+header {
+    grid-area: header;
+    background-color: white;
+}
+article {
+    grid-area: content;
+    background-color: lightgrey;
+}
+aside {
+    grid-area: sidebar;
+    background-color: #343a40;
+    width: 100%;
+}
+/*
+footer {
+    grid-area: footer;
+    background-color: lightgrey;
+}
+*/
+.wrapper {
+  display: grid;
+  grid-gap: 0px;
+  grid-template-columns: 0.7fr 3fr;
+  grid-template-areas:
+    "header header"
+    "sidebar content"
+    "sidebar content";
+}
+/* Header*/
+.image {
+	margin-right: -100px;
+}
+.icon {
+	margin-right: -200px;
+}
+
+/* admin main sidebar */
+.sidebar-menu .sidebar-list {
+    list-style-type: none;
+    padding: 15px;
+}
+.sidebar-menu .sidebar-list a {
+    text-decoration: none;
+    color: white;
+    padding-left: 15px;
+}
+.sidebar-menu .sidebar-list i {
+    color: white;
+}
+.sidebar-menu p {
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 0px;
+    font-size: 30px;
+}
+.sidebar-menu hr{
+    color: white;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.sidebar-menu {
+	padding-bottom: 100px;
+}
+
+/* admin category section */
+.category {
+    background-color: white;
+}
+.category .category-name {
+	margin-top: 10px;
+}
+.category .category-name p {
+    color: #000;
+    padding: 10px;
+    font-size: 20px;
+}
+.add-category {
+    background-color: white;
+    padding: 5px;
+}

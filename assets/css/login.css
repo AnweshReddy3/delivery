@@ -1,0 +1,74 @@
+.cont {
+	background-color: #25383C;
+	padding-top: 250px;
+	padding-bottom: 340px;
+}
+
+.login-title {
+	color: #E3F6FA;
+	font-size: 30px;
+	padding-bottom: 30px;
+	padding-left: 20px;
+}
+
+.form-control-label {
+	color: #E3F6FA;
+}
+
+.line-break {
+	color: red;
+}
+
+input[type="text"] {
+	background-color: #25383C;
+	border: none;
+	color: #E3F6FA;
+}
+
+input[type="text"]:focus {
+	background-color: #25383C;
+	border: none;
+	color: #E3F6FA;
+	outline: 1px solid #25383C;
+}
+
+input[type="password"] {
+	background-color: #25383C;
+	border: none;
+	color: #E3F6FA;
+}
+
+input[type="password"]:focus {
+	background-color: #25383C;
+	color: #E3F6FA;
+	outline: 1px solid #25383C;
+}
+
+input[type="text"]::placeholder {
+/*	text-align: center;*/
+/*	color: #E3F6FA;*/
+}
+
+input[type="password"]::placeholder {
+/*	text-align: center;*/
+/*	color: #E3F6FA;*/
+}
+
+.loginbttn .login-button {
+	padding-left: 130px;
+	padding-top: 30px;
+}
+
+.info:hover {
+	color: white;
+	background-color: deepskyblue;
+}
+.error {
+	color: red;
+}
+
+
+
+
+
+
